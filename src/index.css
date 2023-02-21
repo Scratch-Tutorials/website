@@ -512,3 +512,33 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.font-sans {
+  font-family: "Alexandria", sans-serif;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(27 89 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:text-center {
+    text-align: center;
+  }
+}
