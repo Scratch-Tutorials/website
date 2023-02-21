@@ -1,0 +1,29 @@
+{
+  "name": "scratchtutorials",
+  "version": "1.0.0",
+  "description": "The website made for Scratch beginners",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scratchtutorials/main-www.git"
+  },
+  "keywords": [
+    "scratch",
+    "tutorials",
+    "coding",
+    "with",
+    "scratch"
+  ],
+  "author": "happex",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scratchtutorials/main-www/issues"
+  },
+  "homepage": "https://github.com/scratchtutorials/main-www#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
