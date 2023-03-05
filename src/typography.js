@@ -6,7 +6,7 @@ const h4 = document.querySelectorAll('h4')
 const h5 = document.querySelectorAll('h5')
 const h6 = document.querySelectorAll('h6')
 
-$.classList.add('bg-slate-50', 'text-blue-900', 'text-base', 'font-sans')
+$.classList.add('bg-slate-50', 'text-blue-900', 'text-base', 'font-sans', 'md:text-center')
 h1.forEach(elem => {
 	elem.classList.add('text-5xl', 'text-center', 'font-bold')
 })
